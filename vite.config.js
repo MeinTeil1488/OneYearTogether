@@ -6,4 +6,8 @@ export default defineConfig({
         strictPort: true,
     },
     base: "/OneYearTogether/",
+    build: {
+        minify: false,
+        sourcemap: true,
+    },
 });

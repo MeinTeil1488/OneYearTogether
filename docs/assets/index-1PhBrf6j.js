@@ -3676,40 +3676,40 @@ zo({
   canvas: document.querySelector("canvas")
 });
 setGravity(1600);
-loadSprite("idle", "/src/assets/sprites/boy_idle-1.png");
-loadSprite("walk", "/src/assets/sprites/boy_walk-1.png");
-loadSprite("chest_closed", "/src/assets/sprites/chest_closed.png");
-loadSprite("chest_open", "/src/assets/sprites/chest_open.png");
-loadSprite("photo_summer_1", "/src/assets/photos/photo_summer_1.jpg");
-loadSprite("photo_summer_2", "/src/assets/photos/photo_summer_2.jpg");
-loadSprite("photo_summer_3", "/src/assets/photos/photo_summer_3.jpg");
-loadSprite("photo_autumn_1", "/src/assets/photos/photo_autumn_1.jpg");
-loadSprite("photo_autumn_2", "/src/assets/photos/photo_autumn_2.jpg");
-loadSprite("photo_autumn_3", "/src/assets/photos/photo_autumn_3.jpg");
-loadSprite("photo_autumn_4", "/src/assets/photos/photo_autumn_4.jpg");
-loadSprite("photo_winter_1", "/src/assets/photos/photo_winter_1.jpg");
-loadSprite("photo_winter_2", "/src/assets/photos/photo_winter_2.jpg");
-loadSprite("photo_winter_3", "/src/assets/photos/photo_winter_3.jpg");
-loadSprite("photo_spring_1", "/src/assets/photos/photo_spring_1.jpg");
-loadSprite("photo_spring_2", "/src/assets/photos/photo_spring_2.jpg");
-loadSprite("photo_spring_3", "/src/assets/photos/photo_spring_3.jpg");
-loadSprite("photo_spring_4", "/src/assets/photos/photo_spring_4.jpg");
-loadSprite("background_summer", "/src/assets/backgrounds/background_summer.png");
-loadSprite("background_autumn", "/src/assets/backgrounds/background_autumn.png");
-loadSprite("background_winter", "/src/assets/backgrounds/background_winter.png");
-loadSprite("background_spring", "/src/assets/backgrounds/background_spring.png");
-loadSprite("background_final", "/src/assets/backgrounds/background_final.png");
-loadSprite("background_final_open", "/src/assets/backgrounds/background_final_open.png");
-loadSprite("win-image", "/src/assets/backgrounds/final_win_image.png");
-loadSprite("grass", "/src/assets/tiles/tileset_summer.png", { sliceX: 2, sliceY: 1 });
-loadSprite("portal", "/src/assets/tiles/tileset_summer.png", { sliceX: 2, sliceY: 1 });
-loadSprite("autumn_platform", "/src/assets/tiles/tileset_autumn.png");
-loadSprite("winter_platform", "/src/assets/tiles/tileset_winter.png");
-loadSprite("spring_platform", "/src/assets/tiles/tileset_spring.png");
-loadSound("chestOpen", "src/assets/music/chest-open.mp3");
-loadSound("portal", "src/assets/music/portal.mp3");
-loadSound("final", "src/assets/music/final.mp3");
-loadSound("win", "src/assets/music/win.mp3");
+loadSprite("idle", "/assets/sprites/boy_idle-1.png");
+loadSprite("walk", "/assets/sprites/boy_walk-1.png");
+loadSprite("chest_closed", "/assets/sprites/chest_closed.png");
+loadSprite("chest_open", "/assets/sprites/chest_open.png");
+loadSprite("photo_summer_1", "/assets/photos/photo_summer_1.jpg");
+loadSprite("photo_summer_2", "/assets/photos/photo_summer_2.jpg");
+loadSprite("photo_summer_3", "/assets/photos/photo_summer_3.jpg");
+loadSprite("photo_autumn_1", "/assets/photos/photo_autumn_1.jpg");
+loadSprite("photo_autumn_2", "/assets/photos/photo_autumn_2.jpg");
+loadSprite("photo_autumn_3", "/assets/photos/photo_autumn_3.jpg");
+loadSprite("photo_autumn_4", "/assets/photos/photo_autumn_4.jpg");
+loadSprite("photo_winter_1", "/assets/photos/photo_winter_1.jpg");
+loadSprite("photo_winter_2", "/assets/photos/photo_winter_2.jpg");
+loadSprite("photo_winter_3", "/assets/photos/photo_winter_3.jpg");
+loadSprite("photo_spring_1", "/assets/photos/photo_spring_1.jpg");
+loadSprite("photo_spring_2", "/assets/photos/photo_spring_2.jpg");
+loadSprite("photo_spring_3", "/assets/photos/photo_spring_3.jpg");
+loadSprite("photo_spring_4", "/assets/photos/photo_spring_4.jpg");
+loadSprite("background_summer", "/assets/backgrounds/background_summer.png");
+loadSprite("background_autumn", "/assets/backgrounds/background_autumn.png");
+loadSprite("background_winter", "/assets/backgrounds/background_winter.png");
+loadSprite("background_spring", "/assets/backgrounds/background_spring.png");
+loadSprite("background_final", "/assets/backgrounds/background_final.png");
+loadSprite("background_final_open", "/assets/backgrounds/background_final_open.png");
+loadSprite("win-image", "/assets/backgrounds/final_win_image.png");
+loadSprite("grass", "/assets/tiles/tileset_summer.png", { sliceX: 2, sliceY: 1 });
+loadSprite("portal", "/assets/tiles/tileset_summer.png", { sliceX: 2, sliceY: 1 });
+loadSprite("autumn_platform", "/assets/tiles/tileset_autumn.png");
+loadSprite("winter_platform", "/assets/tiles/tileset_winter.png");
+loadSprite("spring_platform", "/assets/tiles/tileset_spring.png");
+loadSound("chestOpen", "/assets/music/chest-open.mp3");
+loadSound("portal", "/assets/music/portal.mp3");
+loadSound("final", "/assets/music/final.mp3");
+loadSound("win", "/assets/music/win.mp3");
 function addPlayer() {
   return add([
     sprite("idle"),
@@ -4765,4 +4765,4 @@ scene("finalImage", () => {
   onClick("restartButtonBg", restartAction);
 });
 go("summer");
-//# sourceMappingURL=index-QK252t82.js.map
+//# sourceMappingURL=index-1PhBrf6j.js.map
